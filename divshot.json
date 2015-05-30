@@ -1,0 +1,6 @@
+{
+  "name": "aurelia-blog",
+  "root": "deploy",
+  "clean_urls": true,
+  "error_page": "error.html"
+}

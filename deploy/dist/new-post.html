@@ -1,0 +1,26 @@
+<template>
+  <h2>Create a New Post</h2>
+  <br>
+  <form id="NewPost" submit.delegate="submit()">
+    <p>
+      <label for="post_title">Title:</label>
+      <input type="text" value.bind="title" id="post_title" placeholder="Title">
+    </p>
+    <p>
+      <label for="post_author">Author: </label>
+      <input type="text" value.bind="author" id="post_author" placeholder="Author">
+    </p>
+    <p>
+      <label for="post_text">Text:</label>
+      <textarea value.bind="text" id="post_text" rows="10"></textarea>
+    </p>
+    <p>
+      <button type="submit" class="pull-right">Publish</button>
+    </p>
+  </form>
+
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+
+  <hr>
+</template>

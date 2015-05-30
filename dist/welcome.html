@@ -1,0 +1,15 @@
+<template>
+  <article repeat.for="article of posts">
+    <h2>${article.title}</h2>
+    <p innerHTML.bind="article.text"></p>
+    <em>
+      Posted on    ${article.createdDate}
+
+      by    ${article.author}
+    </em>
+    <br>
+    <br>
+    <br>
+    <hr>
+  </article>
+</template>

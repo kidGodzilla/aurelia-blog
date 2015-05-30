@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <title>Aurelia Blog</title>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body aurelia-app>
+
+<script src="jspm_packages/system.js"></script>
+<script src="config.js"></script>
+<script>
+  System.config({
+    "paths": {
+      "*": "dist/*.js"
+    }
+  });
+  var data = [
+    {
+      "author" : "James",
+      "createdDate" : "2015-05-03T18:46:29.957Z",
+      "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque aut autem delectus deleniti dolor earum, eius mollitia nostrum quia ratione repellendus suscipit tempora? A asperiores error iusto praesentium repellendus.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam beatae, deleniti eos eum ipsam molestias mollitia pariatur porro qui quibusdam, quo reiciendis sit, soluta veniam. Amet placeat sit tempora.",
+      "title" : "Lorem Ipsum is some dummy text",
+      "updatedDate" : "2015-05-11T07:48:27.612Z"
+    },
+    {
+      "author" : "James",
+      "createdDate" : "2015-05-03T18:46:59.050Z",
+      "text" : "Tattooed DIY keytar master cleanse, pop-up taxidermy chambray trust fund selfies butcher lomo tousled wolf Pinterest. Carles yr Kickstarter cred. \n\nSartorial try-hard organic, four loko put a bird on it tote bag small batch synth pork belly High Life plaid squid Neutra. Truffaut aesthetic health goth, chia tattooed Intelligentsia chillwave. Vice Carles sartorial keytar mlkshk. Banksy mustache cardigan Carles quinoa pop-up, shabby chic squid. Intelligentsia authentic 8-bit cardigan Echo Park fashion axe.\n\nLomo kitsch cliche, irony vegan tousled paleo quinoa whatever. Wes Anderson listicle Banksy, meggings polaroid sriracha next level literally. Forage art party skateboard, 90's drinking vinegar 3 wolf moon semiotics. Mumblecore +1 vinyl, slow-carb taxidermy Helvetica banjo gentrify actually fashion axe Wes Anderson farm-to-table drinking vinegar literally umami. Gentrify occupy migas chambray, Williamsburg mlkshk master cleanse Tumblr Kickstarter Pinterest viral cardigan ethical. Ethical banh mi bitters, master cleanse Blue Bottle stumptown health goth vinyl. \n\nEnnui food truck selfies jean shorts fanny pack, put a bird on it flexitarian post-ironic brunch.",
+      "title" : "HIPSTER IPSUM: Artisanal filler text for your site or project.",
+      "updatedDate" : "2015-05-11T08:28:51.172Z"
+    },
+    {
+      "author" : "James",
+      "createdDate" : "2015-05-03T18:47:56.365Z",
+      "text" : "Kitty ipsum dolor sit amet, scratched iaculis suscipit bibendum fluffy fur, orci turpis tortor shed everywhere neque tempus orci turpis iaculis. Kittens vestibulum suspendisse et quis nunc nunc, orci turpis dolor climb the curtains quis. Shed everywhere vestibulum toss the mousie toss the mousie, dolor cras nec pharetra feed me tincidunt a nunc climb the curtains iaculis. \n\nSleep on your face vestibulum sollicitudin jump, knock over the lamp sleep on your face sunbathe I don't like that food etiam faucibus tortor. Give me fish sniff zzz eat the grass, scratched amet suspendisse amet stuck in a tree sollicitudin justo attack your ankles. Amet leap adipiscing give me fish, sleep on your face run give me fish give me fish pellentesque tincidunt a neque. \n\nCatnip scratched libero lick attack, puking enim ut toss the mousie suscipit sleep in the sink. Enim ut vel pharetra libero, faucibus sleep in the sink leap fluffy fur quis nunc nullam.",
+      "title" : "Kitty Ipsum: A meowjestic Lorem Ipsum generator",
+      "updatedDate" : "2015-05-11T08:27:51.932Z"
+    },
+    {
+      "author" : "James",
+      "createdDate" : "2015-05-04T01:12:57.428Z",
+      "text" : "The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. \n\nAnd I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.",
+      "title" : "Samuel L Ipsum: PLACEHOLDER TEXT, MOTHERF*****!",
+      "updatedDate" : "2015-05-11T08:31:13.949Z"
+    }
+  ];
+</script>
+<script>
+  System.import('aurelia-bootstrapper');
+</script>
+</body>
+</html>
